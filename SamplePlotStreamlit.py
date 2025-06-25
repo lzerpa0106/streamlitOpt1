@@ -157,7 +157,7 @@ for tick in ax.get_yticklabels():
     tick.set_fontname('Verdana')
 ax.grid(True)  
 
-st.pyplot(fig)
+#st.pyplot(fig)
 
 tolerance = 1e-12
 x0, f0, interations = SteepestDescent(objectiveFunction,x0,iF,tolerance,ax)
