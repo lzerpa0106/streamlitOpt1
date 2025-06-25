@@ -8,7 +8,7 @@ Created on Wed Jun 25 09:37:52 2025
 
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 
 
 
